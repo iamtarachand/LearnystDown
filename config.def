@@ -1,0 +1,8 @@
+{
+    "lrToken": "",
+    "ffmpegPath": "./bin/ffmpeg",
+    "mp4decPath": "./bin/mp4decrypt",
+    "tempPath": "./downloads/temp",
+    "downloadPath": "./downloads/courses",
+    "psshCacheStore": {}
+}
