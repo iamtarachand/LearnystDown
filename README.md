@@ -1,6 +1,6 @@
 # LearnystDown
  
-- LearnystDown is a small Python utility POC to download course content from the Learnyst LMS platform. Similar to my previous project [JCineDown](https://github.com/kp7742/JCineDown), I utilize mostly open source stuff to achieve this objective, although this time the challenges were tough as it wasn't straightforward.
+- LearnystDown is a small Python utility POC to download course content from the Learnyst LMS platform. Similar to my previous project [JCineDown](https://github.com/iamtarachand/JCineDown), I utilize mostly open source stuff to achieve this objective, although this time the challenges were tough as it wasn't straightforward.
 
 - Learnyst were using a server-key synced encryption module within a heavily obfuscated web assembly runtime encrypts and decrypts important requests and responses. To simulate their flow, I had to reuse their module to export a set of functions.(Now they have switched to a custom web player module which is also heavily obfuscated, handles encrypted streaming data and also show watermark of the user thus more secure then the previous method)
 
